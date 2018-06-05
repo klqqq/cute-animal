@@ -1,0 +1,108 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.cute.java.config.properties.BeetlProperties",
+      "name": "beetl",
+      "type": "com.cute.java.config.properties.BeetlProperties"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.CuteProperties",
+      "name": "cute",
+      "type": "com.cute.java.config.properties.CuteProperties"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.CuteFlowableProperties",
+      "name": "cute.flowable.datasource",
+      "type": "com.cute.java.config.properties.CuteFlowableProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.cute.java.config.properties.BeetlProperties",
+      "name": "beetl.delimiter-statement-end",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.BeetlProperties",
+      "name": "beetl.delimiter-statement-start",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.BeetlProperties",
+      "name": "beetl.properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.BeetlProperties",
+      "name": "beetl.resource-auto-check",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.BeetlProperties",
+      "name": "beetl.resource-tagroot",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.BeetlProperties",
+      "name": "beetl.resource-tagsuffix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.CuteProperties",
+      "name": "cute.file-upload-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.CuteFlowableProperties",
+      "defaultValue": "root",
+      "name": "cute.flowable.datasource.password",
+      "description": "默认多数据源的数据库密码",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.CuteFlowableProperties",
+      "defaultValue": "jdbc:mysql:\/\/127.0.0.1:3306\/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull",
+      "name": "cute.flowable.datasource.url",
+      "description": "默认多数据源的链接",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.CuteFlowableProperties",
+      "defaultValue": "root",
+      "name": "cute.flowable.datasource.username",
+      "description": "默认多数据源的数据库账号",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.CuteProperties",
+      "defaultValue": false,
+      "name": "cute.kaptcha-open",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.CuteProperties",
+      "name": "cute.session-invalidate-time",
+      "description": "session 失效时间（默认为30分钟 单位：秒）",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.CuteProperties",
+      "name": "cute.session-validation-interval",
+      "description": "session 验证失效时间（默认为15分钟 单位：秒）",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.CuteProperties",
+      "defaultValue": false,
+      "name": "cute.spring-session-open",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.cute.java.config.properties.CuteProperties",
+      "defaultValue": false,
+      "name": "cute.swagger-open",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

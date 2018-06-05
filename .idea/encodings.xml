@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cute-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cute-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cute-forum" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cute-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cute-rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cute-shop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cute-video" charset="UTF-8" />
+  </component>
+</project>

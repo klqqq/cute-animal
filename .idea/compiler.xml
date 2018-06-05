@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cute-admin" />
+        <module name="cute-core" />
+        <module name="cute-forum" />
+        <module name="cute-generator" />
+        <module name="cute-rest" />
+        <module name="cute-shop" />
+        <module name="cute-video" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cute-admin" target="1.8" />
+      <module name="cute-animal" target="1.8" />
+      <module name="cute-core" target="1.8" />
+      <module name="cute-forum" target="1.8" />
+      <module name="cute-generator" target="1.8" />
+      <module name="cute-rest" target="1.8" />
+      <module name="cute-shop" target="1.8" />
+      <module name="cute-video" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
