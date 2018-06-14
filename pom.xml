@@ -12,9 +12,6 @@
         <module>cute-core</module>
         <module>cute-generator</module>
         <module>cute-rest</module>
-        <module>cute-video</module>
-        <module>cute-shop</module>
-        <module>cute-forum</module>
     </modules>
 
     <packaging>pom</packaging>

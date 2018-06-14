@@ -6,6 +6,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/cute-forum/pom.xml" />
+        <option value="$PROJECT_DIR$/cute-shop/pom.xml" />
+        <option value="$PROJECT_DIR$/cute-video/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">

@@ -5,11 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/cute-admin/cute-admin.iml" filepath="$PROJECT_DIR$/cute-admin/cute-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/cute-animal.iml" filepath="$PROJECT_DIR$/cute-animal.iml" />
       <module fileurl="file://$PROJECT_DIR$/cute-core/cute-core.iml" filepath="$PROJECT_DIR$/cute-core/cute-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cute-forum/cute-forum.iml" filepath="$PROJECT_DIR$/cute-forum/cute-forum.iml" />
       <module fileurl="file://$PROJECT_DIR$/cute-generator/cute-generator.iml" filepath="$PROJECT_DIR$/cute-generator/cute-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/cute-rest/cute-rest.iml" filepath="$PROJECT_DIR$/cute-rest/cute-rest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cute-shop/cute-shop.iml" filepath="$PROJECT_DIR$/cute-shop/cute-shop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cute-video/cute-video.iml" filepath="$PROJECT_DIR$/cute-video/cute-video.iml" />
     </modules>
   </component>
 </project>

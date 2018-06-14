@@ -1,0 +1,139 @@
+2018-06-08 15:13:49.093  INFO 2618 --- [main] com.cute.java.rest.CuteRestApplication   : Starting CuteRestApplication on qiangluisdeMacBook-Pro.local with PID 2618 (/Users/liuqiang/code/java/cute-animal/cute-rest/target/classes started by liuqiang in /Users/liuqiang/code/java/cute-animal)
+2018-06-08 15:13:49.096  INFO 2618 --- [main] com.cute.java.rest.CuteRestApplication   : No active profile set, falling back to default profiles: default
+2018-06-08 15:13:49.237  INFO 2618 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4df50bcc: startup date [Fri Jun 08 15:13:49 CST 2018]; root of context hierarchy
+2018-06-08 15:13:53.224  INFO 2618 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-06-08 15:13:53.235  INFO 2618 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-08 15:13:53.236  INFO 2618 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-08 15:13:53.593  INFO 2618 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-08 15:13:53.594  INFO 2618 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4359 ms
+2018-06-08 15:13:53.890  INFO 2618 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-08 15:13:53.893  INFO 2618 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-08 15:13:53.894  INFO 2618 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-08 15:13:53.894  INFO 2618 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-08 15:13:53.894  INFO 2618 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-08 15:13:53.894  INFO 2618 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'jwtAuthenticationTokenFilter' to: [/*]
+2018-06-08 15:13:56.104  INFO 2618 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4df50bcc: startup date [Fri Jun 08 15:13:49 CST 2018]; root of context hierarchy
+2018-06-08 15:13:56.202  INFO 2618 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/auth]}" onto public org.springframework.http.ResponseEntity<?> com.cute.java.rest.modular.auth.controller.AuthController.createAuthenticationToken(com.cute.java.rest.modular.auth.controller.dto.AuthRequest)
+2018-06-08 15:13:56.204  INFO 2618 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public org.springframework.http.ResponseEntity com.cute.java.rest.modular.example.ExampleController.hello(com.cute.java.rest.common.SimpleObject)
+2018-06-08 15:13:56.205  INFO 2618 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/global/error]}" onto public java.lang.String com.cute.java.core.base.controller.GlobalController.errorPage()
+2018-06-08 15:13:56.206  INFO 2618 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/global/sessionError]}" onto public java.lang.String com.cute.java.core.base.controller.GlobalController.errorPageInfo(org.springframework.ui.Model)
+2018-06-08 15:13:56.208  INFO 2618 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-08 15:13:56.209  INFO 2618 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-08 15:13:56.252  INFO 2618 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-08 15:13:56.252  INFO 2618 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-08 15:13:56.270  INFO 2618 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-06-08 15:13:56.292  INFO 2618 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-08 15:13:56.813  INFO 2618 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-08 15:13:56.876 ERROR 2618 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-80"]
+
+java.net.SocketException: Permission denied
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_141]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_141]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_141]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_141]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_141]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.cute.java.rest.CuteRestApplication.main(CuteRestApplication.java:10) [classes/:na]
+
+2018-06-08 15:13:56.877 ERROR 2618 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-80]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.cute.java.rest.CuteRestApplication.main(CuteRestApplication.java:10) [classes/:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 13 common frames omitted
+Caused by: java.net.SocketException: Permission denied
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_141]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_141]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_141]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_141]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_141]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 14 common frames omitted
+
+2018-06-08 15:13:56.891  INFO 2618 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-06-08 15:13:56.919  INFO 2618 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-06-08 15:13:56.922 ERROR 2618 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2018-06-08 15:13:56.944  INFO 2618 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4df50bcc: startup date [Fri Jun 08 15:13:49 CST 2018]; root of context hierarchy
+2018-06-08 15:13:56.946  INFO 2618 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-06-08 15:14:46.950  INFO 2623 --- [main] com.cute.java.rest.CuteRestApplication   : Starting CuteRestApplication on qiangluisdeMacBook-Pro.local with PID 2623 (/Users/liuqiang/code/java/cute-animal/cute-rest/target/classes started by liuqiang in /Users/liuqiang/code/java/cute-animal)
+2018-06-08 15:14:47.003  INFO 2623 --- [main] com.cute.java.rest.CuteRestApplication   : No active profile set, falling back to default profiles: default
+2018-06-08 15:14:47.045  INFO 2623 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4df50bcc: startup date [Fri Jun 08 15:14:47 CST 2018]; root of context hierarchy
+2018-06-08 15:14:48.987  INFO 2623 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8088 (http)
+2018-06-08 15:14:49.003  INFO 2623 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-08 15:14:49.004  INFO 2623 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-08 15:14:49.131  INFO 2623 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-08 15:14:49.131  INFO 2623 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2089 ms
+2018-06-08 15:14:49.341  INFO 2623 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-08 15:14:49.345  INFO 2623 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-08 15:14:49.345  INFO 2623 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-08 15:14:49.345  INFO 2623 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-08 15:14:49.345  INFO 2623 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-08 15:14:49.346  INFO 2623 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'jwtAuthenticationTokenFilter' to: [/*]
+2018-06-08 15:14:50.481  INFO 2623 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4df50bcc: startup date [Fri Jun 08 15:14:47 CST 2018]; root of context hierarchy
+2018-06-08 15:14:50.534  INFO 2623 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/auth]}" onto public org.springframework.http.ResponseEntity<?> com.cute.java.rest.modular.auth.controller.AuthController.createAuthenticationToken(com.cute.java.rest.modular.auth.controller.dto.AuthRequest)
+2018-06-08 15:14:50.536  INFO 2623 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public org.springframework.http.ResponseEntity com.cute.java.rest.modular.example.ExampleController.hello(com.cute.java.rest.common.SimpleObject)
+2018-06-08 15:14:50.538  INFO 2623 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/global/error]}" onto public java.lang.String com.cute.java.core.base.controller.GlobalController.errorPage()
+2018-06-08 15:14:50.538  INFO 2623 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/global/sessionError]}" onto public java.lang.String com.cute.java.core.base.controller.GlobalController.errorPageInfo(org.springframework.ui.Model)
+2018-06-08 15:14:50.541  INFO 2623 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-08 15:14:50.542  INFO 2623 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-08 15:14:50.570  INFO 2623 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-08 15:14:50.570  INFO 2623 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-08 15:14:50.590  INFO 2623 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-06-08 15:14:50.611  INFO 2623 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-08 15:14:50.882  INFO 2623 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-08 15:14:50.958  INFO 2623 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8088 (http)
+2018-06-08 15:14:50.965  INFO 2623 --- [main] com.cute.java.rest.CuteRestApplication   : Started CuteRestApplication in 14.373 seconds (JVM running for 14.969)
+2018-06-08 15:15:20.809  INFO 2623 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-08 15:15:20.872  INFO 2623 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-08 15:15:21.099  INFO 2623 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 227 ms
+2018-06-13 10:39:35.541  INFO 2623 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4df50bcc: startup date [Fri Jun 08 15:14:47 CST 2018]; root of context hierarchy
+2018-06-13 10:39:39.230  INFO 2623 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

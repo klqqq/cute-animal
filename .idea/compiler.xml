@@ -8,11 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cute-admin" />
         <module name="cute-core" />
-        <module name="cute-forum" />
         <module name="cute-generator" />
         <module name="cute-rest" />
-        <module name="cute-shop" />
-        <module name="cute-video" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

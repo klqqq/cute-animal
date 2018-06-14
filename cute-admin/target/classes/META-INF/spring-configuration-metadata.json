@@ -15,6 +15,11 @@
       "sourceType": "com.cute.java.config.properties.CuteFlowableProperties",
       "name": "cute.flowable.datasource",
       "type": "com.cute.java.config.properties.CuteFlowableProperties"
+    },
+    {
+      "sourceType": "com.cute.java.modular.app.utils.JwtUtils",
+      "name": "jwtconfig.jwt",
+      "type": "com.cute.java.modular.app.utils.JwtUtils"
     }
   ],
   "properties": [
@@ -103,6 +108,22 @@
       "defaultValue": false,
       "name": "cute.swagger-open",
       "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.cute.java.modular.app.utils.JwtUtils",
+      "defaultValue": 0,
+      "name": "jwtconfig.jwt.expire",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.cute.java.modular.app.utils.JwtUtils",
+      "name": "jwtconfig.jwt.header",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cute.java.modular.app.utils.JwtUtils",
+      "name": "jwtconfig.jwt.secret",
+      "type": "java.lang.String"
     }
   ]
 }
