@@ -101,7 +101,7 @@ public class AppBaseResult<T> implements Serializable {
 		if(!Tools.isEmpty(this.data)){
 			try {
 				mData = CDESCrypt.decryptString(this.data, KEY);
-				//mData=this.data;
+//				mData=this.data;
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

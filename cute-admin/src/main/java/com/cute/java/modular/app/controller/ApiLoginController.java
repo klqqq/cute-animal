@@ -1,10 +1,12 @@
 package com.cute.java.modular.app.controller;
 
 
+import com.cute.java.modular.member.service.IMemberService;
 import com.google.gson.Gson;
 import com.cute.java.core.exception.RRException;
 import com.cute.java.core.util.AppBaseResult;
 import com.cute.java.core.validator.Assert;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
@@ -27,14 +29,15 @@ import java.util.HashMap;
  * @email object_czx@163.com
  * @date 2017-03-23 15:31
  */
+@Api(value = "API - ApiLoginController ", description = "APP用户登录")
 @RestController
 @RequestMapping("/app")
 public class ApiLoginController {
 
     private org.slf4j.Logger logger = LoggerFactory.getLogger(getClass());
 
-    @Resource(name = "appUserService")
-    private AppUserService appUserService;
+    @Autowired
+    private IMemberService appUserService;
     @Autowired
     private JwtUtils jwtUtils;
 
@@ -49,16 +52,17 @@ public class ApiLoginController {
     public AppBaseResult login(@RequestBody AppBaseResult appBaseResult) throws Exception {
         logger.info("用户登录",appBaseResult.decryptData());
         HashMap<String,Object> pd = new Gson().fromJson(appBaseResult.decryptData(),HashMap.class);
-        Assert.isNull(pd.get("mobile"), "手机号不能为空");
+        System.out.println(appBaseResult.decryptData());
+        Assert.isNull(pd.get("username"), "用户名不能为空");
         Assert.isNull(pd.get("password"), "密码不能为空");
-        if (!Assert.checkCellphone(pd.get("mobile").toString())){
+        if (!Assert.checkCellphone(pd.get("username").toString())){
             throw new RRException("请输入正确的手机号");
         }
 
         //用户登录
-        HashMap<String,Object> user = appUserService.queryByMobile(pd);
+        HashMap<String,Object> user = appUserService.selectByUsername(pd);
         //生成token
-        String token = jwtUtils.generateToken(user.get("user_id"));
+        String token = jwtUtils.generateToken(user.get("id"));
         user.put("token", token);
         user.put("expire", jwtUtils.getExpire());
         return AppBaseResult.success().setEncryptData(user);

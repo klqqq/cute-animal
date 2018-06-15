@@ -2,8 +2,8 @@ package com.cute.java.modular.app.resolver;
 
 import com.cute.java.modular.app.annotation.LoginUser;
 import com.cute.java.modular.app.interceptor.AuthorizationInterceptor;
-import com.cute.java.modular.user.entity.UserEntity;
-import com.cute.java.modular.user.service.UserService;
+import com.cute.java.modular.member.model.Member;
+import com.cute.java.modular.member.service.IMemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Component;
@@ -22,11 +22,11 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 @Component
 public class LoginUserHandlerMethodArgumentResolver implements HandlerMethodArgumentResolver {
     @Autowired
-    private UserService userService;
+    private IMemberService memberService;
 
     @Override
     public boolean supportsParameter(MethodParameter parameter) {
-        return parameter.getParameterType().isAssignableFrom(UserEntity.class) && parameter.hasParameterAnnotation(LoginUser.class);
+        return parameter.getParameterType().isAssignableFrom(Member.class) && parameter.hasParameterAnnotation(LoginUser.class);
     }
 
     @Override
@@ -38,7 +38,7 @@ public class LoginUserHandlerMethodArgumentResolver implements HandlerMethodArgu
         }
 
         //获取用户信息
-        UserEntity user = userService.queryObject((Long)object);
+        Member user = memberService.selectById((Long)object);
 
         return user;
     }

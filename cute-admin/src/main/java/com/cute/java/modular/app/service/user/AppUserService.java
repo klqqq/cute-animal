@@ -22,7 +22,7 @@ public class AppUserService extends ServiceSupport {
      * @throws Exception
      */
     public HashMap<String,Object> queryByMobile(HashMap<String,Object> param) throws Exception {
-        String mobile = param.get("mobile").toString();
+        String mobile = param.get("username").toString();
         String password = param.get("password").toString();
         HashMap<String,Object> user = findForObject("api.AppUserDao.queryByMobile", mobile);
         Assert.isNull(user, "用户不存在");

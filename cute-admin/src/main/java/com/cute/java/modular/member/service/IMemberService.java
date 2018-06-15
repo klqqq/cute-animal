@@ -1,7 +1,9 @@
 package com.cute.java.modular.member.service;
 
-import com.cute.java.modular.system.model.Member;
+import com.cute.java.modular.member.model.Member;
 import com.baomidou.mybatisplus.service.IService;
+
+import java.util.HashMap;
 
 /**
  * <p>
@@ -13,4 +15,5 @@ import com.baomidou.mybatisplus.service.IService;
  */
 public interface IMemberService extends IService<Member> {
 
+    HashMap<String,Object> selectByUsername(HashMap<String, Object> pd);
 }

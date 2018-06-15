@@ -3,7 +3,7 @@ import com.cute.java.core.util.R;
 import com.cute.java.modular.app.annotation.AuthIgnore;
 import com.cute.java.modular.app.annotation.Login;
 import com.cute.java.modular.app.annotation.LoginUser;
-import com.cute.java.modular.user.entity.UserEntity;
+import com.cute.java.modular.member.model.Member;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,7 +25,7 @@ public class ApiTestController {
      */
     @Login
     @GetMapping("userInfo")
-    public R userInfo(@LoginUser UserEntity user){
+    public R userInfo(@LoginUser Member user){
         return R.ok().put("user", user);
     }
 

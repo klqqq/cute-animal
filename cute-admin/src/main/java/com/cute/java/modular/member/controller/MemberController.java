@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.cute.java.core.log.LogObjectHolder;
 import org.springframework.web.bind.annotation.RequestParam;
-import com.cute.java.modular.system.model.Member;
+import com.cute.java.modular.member.model.Member;
 import com.cute.java.modular.member.service.IMemberService;
 
 /**
