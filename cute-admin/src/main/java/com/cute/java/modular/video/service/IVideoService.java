@@ -1,7 +1,11 @@
 package com.cute.java.modular.video.service;
 
+import com.cute.java.modular.video.dao.VideoMapper;
 import com.cute.java.modular.video.model.Video;
 import com.baomidou.mybatisplus.service.IService;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import javax.annotation.Resource;
 
 /**
  * <p>
@@ -13,4 +17,6 @@ import com.baomidou.mybatisplus.service.IService;
  */
 public interface IVideoService extends IService<Video> {
 
+
+    Video getUrl(Integer videoId);
 }

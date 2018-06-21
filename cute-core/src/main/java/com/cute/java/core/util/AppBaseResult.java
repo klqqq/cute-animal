@@ -108,6 +108,21 @@ public class AppBaseResult<T> implements Serializable {
 		}
 		return mData;
 	}
+
+	public AppBaseResult setInitData(T t) {
+		String mData = new Gson().toJson(t);
+		try {
+			if(!Tools.isEmpty(mData)){
+				//this.data = CDESCrypt.encryptString(mData, KEY);
+				this.data=mData;
+			}else{
+				this.data = mData;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return this;
+	}
 	
 	public AppBaseResult setEncryptData(T t) {
 		String mData = new Gson().toJson(t);

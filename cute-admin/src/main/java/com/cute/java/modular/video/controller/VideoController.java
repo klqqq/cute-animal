@@ -1,6 +1,8 @@
 package com.cute.java.modular.video.controller;
 
 import com.cute.java.core.base.controller.BaseController;
+import com.cute.java.core.base.tips.Tip;
+import com.cute.java.core.util.AppBaseResult;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -41,6 +43,33 @@ public class VideoController extends BaseController {
     @RequestMapping("/video_add")
     public String videoAdd() {
         return PREFIX + "video_add.html";
+    }
+
+    /**
+     * 获取播放凭证
+     * 再说
+     */
+
+    /**
+     * 得到客户端的视频ID
+     * Request：客户端的视频信息（title ,描述，vid....）
+     * 通过vid从阿里云服务器上获取该视频的其他信息，url
+     * 保存到数据库
+     * 返回保存成功
+     */
+
+
+    /**
+     * 客户端拿ID来得到视频的url
+     * 从数据库中得到
+     */
+    @RequestMapping("/getVideoUrl")
+    public AppBaseResult getVideoUrl(@PathVariable Integer videoId){
+        //获取Url
+        Video video = videoService.getUrl(videoId);
+        String url =video.getVideoUrl();
+        return AppBaseResult.success().setInitData(url);
+
     }
 
     /**

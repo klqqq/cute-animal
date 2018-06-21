@@ -6,6 +6,8 @@ import com.cute.java.modular.video.service.IVideoService;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 /**
  * <p>
  * 视频 服务实现类
@@ -17,4 +19,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class VideoServiceImpl extends ServiceImpl<VideoMapper, Video> implements IVideoService {
 
+    @Resource
+    VideoMapper videoDao;
+
+    @Override
+    public Video getUrl(Integer videoId) {
+        return videoDao.getUrl(videoId);
+    }
 }

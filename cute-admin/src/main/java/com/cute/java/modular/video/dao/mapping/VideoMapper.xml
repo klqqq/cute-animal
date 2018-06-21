@@ -21,4 +21,11 @@
         id, video_name AS videoName, video_type AS videoType, video_desc AS videoDesc, video_url AS videoUrl, m_id AS mId, favorite, share, comment, status
     </sql>
 
+    <select id="getUrl" resultType="String">
+        select
+        video_url
+        from video
+        id=#{vid}
+    </select>
+
 </mapper>

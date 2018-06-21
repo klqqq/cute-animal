@@ -2522,3 +2522,12 @@ java.lang.NullPointerException: null
 2018-06-15 11:59:03,175 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
 2018-06-15 12:14:03,108 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
 2018-06-15 12:14:03,142 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  [1] sessions were stopped.
+2018-06-15 13:23:01,001 [INFO] [Thread-13] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@53234b92: startup date [Fri Jun 15 11:28:06 CST 2018]; root of context hierarchy
+2018-06-15 13:23:01,015 [INFO] [Thread-13] o.s.jmx.export.annotation.AnnotationMBeanExporter [MBeanExporter.java : 449] Unregistering JMX-exposed beans on shutdown
+2018-06-15 13:23:01,019 [INFO] [Thread-13] o.f.job.service.impl.asyncexecutor.AbstractAsyncExecutor [AbstractAsyncExecutor.java : 162] Shutting down the async job executor [org.flowable.spring.SpringAsyncExecutor].
+2018-06-15 13:23:01,020 [INFO] [flowable-acquire-timer-jobs] o.f.job.service.impl.asyncexecutor.AcquireTimerJobsRunnable [AcquireTimerJobsRunnable.java : 116] stopped async job due acquisition
+2018-06-15 13:23:01,020 [INFO] [flowable-acquire-async-jobs] o.f.j.service.impl.asyncexecutor.AcquireAsyncJobsDueRunnable [AcquireAsyncJobsDueRunnable.java : 79] stopped async job due acquisition
+2018-06-15 13:23:01,020 [INFO] [flowable-reset-expired-jobs] o.f.job.service.impl.asyncexecutor.ResetExpiredJobsRunnable [ResetExpiredJobsRunnable.java : 104] stopped resetting expired jobs
+2018-06-15 13:23:01,025 [INFO] [Thread-13] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1817] {dataSource-1} closed
+2018-06-15 13:23:01,028 [INFO] [Thread-13] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 250] Disabled session validation scheduler.
+2018-06-15 13:23:01,029 [INFO] [Thread-13] org.springframework.cache.ehcache.EhCacheManagerFactoryBean [EhCacheManagerFactoryBean.java : 187] Shutting down EhCache CacheManager
