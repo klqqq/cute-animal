@@ -37,9 +37,9 @@ public class Swagger2 {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 //页面标题
-                .title("X-SpringBoot API")
+                .title("萌话Restful API")
                 //创建人
-                .contact("bnz")
+                .contact("429")
                 //版本号
                 .version("1.0")
                 //描述
