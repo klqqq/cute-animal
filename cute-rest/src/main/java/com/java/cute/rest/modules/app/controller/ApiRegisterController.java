@@ -7,10 +7,8 @@ import com.java.cute.rest.common.utils.SmsUtils;
 import com.java.cute.rest.common.validator.Assert;
 import com.java.cute.rest.modules.app.service.member.AppMemberService;
 import com.java.cute.rest.modules.app.service.user.AppUserService;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 import javax.annotation.Resource;
 import java.util.HashMap;
 
@@ -20,6 +18,7 @@ import java.util.HashMap;
  * @email object_bnz@163.com
  * @date 2017-03-26 17:27
  */
+
 @RestController
 @RequestMapping("/app")
 public class ApiRegisterController {
@@ -33,6 +32,7 @@ public class ApiRegisterController {
     /**
      * 注册
      */
+    @CrossOrigin
     @PostMapping("register")
     public AppBaseResult register(@RequestBody AppBaseResult appBaseResult) throws Exception {
         HashMap<String, Object> pd = new Gson().fromJson(appBaseResult.decryptData().toString(), HashMap.class);

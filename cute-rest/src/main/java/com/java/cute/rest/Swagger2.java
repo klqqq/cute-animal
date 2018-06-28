@@ -1,5 +1,6 @@
 package com.java.cute.rest;
 
+import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -29,8 +30,8 @@ public class Swagger2 {
                 //控制暴露出去的路径下的实例
                 //如果某个接口不想暴露,可以使用以下注解
                 //这样,该接口就不会暴露在 swagger2 的页面下
-                //.apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
-                .apis(RequestHandlerSelectors.basePackage("com.java.cute.rest.modules.app"))
+                .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
+                //.apis(RequestHandlerSelectors.basePackage("com.java.cute.rest.modules.app"))
                 .paths(PathSelectors.any())
                 .build();
     }

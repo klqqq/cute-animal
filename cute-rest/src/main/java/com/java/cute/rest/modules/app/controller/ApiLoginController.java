@@ -11,10 +11,8 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 import javax.annotation.Resource;
 import java.util.HashMap;
 
@@ -25,6 +23,7 @@ import java.util.HashMap;
  * @email object_bnz@163.com
  * @date 2017-03-23 15:31
  */
+
 @RestController
 @RequestMapping("/app")
 public class ApiLoginController {
@@ -43,6 +42,7 @@ public class ApiLoginController {
             @ApiResponse(code = 404, message = "服务器找不到给定的资源；文档不存在"),
             @ApiResponse(code = 500, message = "服务器不能完成请求")}
     )
+    @CrossOrigin
     @PostMapping("login")
     public AppBaseResult login(@RequestBody AppBaseResult appBaseResult) throws Exception {
         logger.info("用户登录",appBaseResult.decryptData());

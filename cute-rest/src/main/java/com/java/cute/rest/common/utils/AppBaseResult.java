@@ -109,7 +109,7 @@ public class AppBaseResult<T> implements Serializable {
 		return mData;
 	}
 	
-	public AppBaseResult setEncryptData(T t) {
+	public AppBaseResult setEncryptData(Object t) {
 		String mData = new Gson().toJson(t);
 		try {
 			if(!Tools.isEmpty(mData)){

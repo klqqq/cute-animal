@@ -1,394 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81c3316a-e96e-4b4c-8d35-985bd1713c8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/CuteApplication.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/config/MybatisPlusConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/common/constant/Const.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/common/constant/DatasourceEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/common/constant/dictmap/LogDict.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/common/constant/dictmap/RoleDict.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/common/constant/dictmap/factory/DictFieldWarpperFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/common/exception/BizExceptionEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/intercept/CuteUserFilter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/log/LogManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/code/controller/CodeController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/code/service/TableService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/flowable/controller/ExpenseController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/flowable/controller/ProcessController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/member/controller/MemberController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/member/dao/MemberMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/member/model/Member.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/member/service/IMemberService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/member/service/impl/MemberServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/system/controller/KaptchaController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/system/controller/NoticeController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/system/controller/RoleController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/system/factory/UserFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/system/warpper/UserWarpper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/video/controller/VideoController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/video/dao/VideoMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/video/model/AliyunVideoEntiry.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/video/model/Video.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/video/service/IVideoService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/video/service/impl/VideoServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/video/util/AliyunVideo/AliyunVideo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/exception/RRException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/exception/RRExceptionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/AppBaseResult$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/AppBaseResult.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/CDESCrypt.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/DateConverter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/PageUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/Query.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/Tools.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/validator/Assert.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/validator/ValidatorUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/validator/group/AddGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/validator/group/AliyunGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/validator/group/Group.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/validator/group/QcloudGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/validator/group/QiniuGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/validator/group/UpdateGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/CuteRestApplication.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/Swagger2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/annotation/SysLog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/aspect/RedisAspect.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/aspect/SysLogAspect.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/exception/MCException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/exception/MCExceptionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/AppBaseResult$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/AppBaseResult.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/CDESCrypt.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/CHttpRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/ConfigConstant.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/Constant$CloudService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/Constant$MenuType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/Constant$ScheduleStatus.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/Constant.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/DateUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/HttpContextUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/IPUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/MD5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/PageUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/Query.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/RedisKeys.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/RedisUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/ShiroUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/SmsUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/SpringContextUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/Tools.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/UUIDS.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/validator/Assert.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/validator/ValidatorUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/validator/group/AddGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/validator/group/AliyunGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/validator/group/Group.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/validator/group/QcloudGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/validator/group/QiniuGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/validator/group/UpdateGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/xss/HTMLFilter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/xss/SQLFilter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/xss/XssFilter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/xss/XssHttpServletRequestWrapper$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/xss/XssHttpServletRequestWrapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/config/FilterConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/config/KaptchaConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/config/RedisConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/config/ShiroConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/datasources/DataSourceNames.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/datasources/DataSourceTestInterface.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/datasources/DataSourceTestService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/datasources/DynamicDataSource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/datasources/DynamicDataSourceConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/datasources/annotation/DataSource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/datasources/aspect/DataSourceAspect.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/annotation/AuthIgnore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/annotation/Login.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/annotation/LoginUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/annotation/VersionCheck.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/config/WebMvcConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/controller/ApiLoginController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/controller/ApiMemberController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/controller/ApiRegisterController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/controller/ApiTestController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/controller/appUpdate/AppUpdateController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/dao/DaoSupport.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/dao/member/AppMemberDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/entity/AppMemberEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/interceptor/AuthorizationInterceptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/interceptor/PageInterceptor$BoundSqlSqlSource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/interceptor/PageInterceptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/resolver/LoginUserHandlerMethodArgumentResolver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/service/ServiceSupport.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/service/appUpdate/AppUpdateService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/service/member/AppMemberService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/service/member/impl/AppMemberServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/service/user/AppUserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/utils/JwtUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/controller/AbstractController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/controller/SysConfigController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/controller/SysLogController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/controller/SysLoginController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/controller/SysMenuController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/controller/SysRoleController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/controller/SysUserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/dao/BaseDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/dao/SysConfigDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/dao/SysLogDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/dao/SysMenuDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/dao/SysRoleDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/dao/SysRoleMenuDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/dao/SysUserDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/dao/SysUserRoleDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/dao/SysUserTokenDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/entity/SysConfigEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/entity/SysLogEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/entity/SysMenuEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/entity/SysRoleEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/entity/SysRoleMenuEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/entity/SysUserEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/entity/SysUserRoleEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/entity/SysUserTokenEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/oauth2/OAuth2Filter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/oauth2/OAuth2Realm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/oauth2/OAuth2Token.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/oauth2/TokenGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/redis/SysConfigRedis.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/ShiroService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/SysConfigService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/SysLogService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/SysMenuService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/SysRoleMenuService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/SysRoleService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/SysUserRoleService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/SysUserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/SysUserTokenService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/impl/ShiroServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/impl/SysConfigServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/impl/SysLogServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/impl/SysMenuServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/impl/SysRoleMenuServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/impl/SysRoleServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/impl/SysUserRoleServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/impl/SysUserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/sys/service/impl/SysUserTokenServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/user/controller/UserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/user/dao/UserDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/user/entity/UserEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/user/service/UserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/user/service/impl/UserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/fonts/DroidSans-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/fonts/DroidSans.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/images/collapse.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/images/expand.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/images/explorer_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/images/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/images/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/images/logo_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/images/pet_store_api.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/images/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/images/wordnik_api.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/cute-rest.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/cute-rest.jar.original" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/test-classes/com/java/cute/rest/DynamicDataSourceTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/test-classes/com/java/cute/rest/JwtTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/test-classes/com/java/cute/rest/RedisTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_dysmsapi_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_axet_kaptcha_0_0_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qcloud_cos_api_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_happy_dns_java_0_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_27_incubating.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/WEB-INF/view/system/memberShop/memberShop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/WEB-INF/view/system/memberShop/memberShop_add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/WEB-INF/view/system/memberShop/memberShop_edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/WEB-INF/view/user/member/member.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/WEB-INF/view/user/member/member_add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/WEB-INF/view/user/member/member_edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/WEB-INF/view/video/video/video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/WEB-INF/view/video/video/video_add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/WEB-INF/view/video/video/video_edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/member/dao/mapping/MemberMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/video/dao/mapping/VideoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/static/modular/user/member/member.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/static/modular/user/member/member_info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/static/modular/video/video/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/target/classes/static/modular/video/video/video_info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/SmsUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiMemberController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/dao/member/AppMemberDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/entity/AppMemberEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/member/AppMemberService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/member/impl/AppMemberServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/member/AppMemberDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/application-dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/application-pro.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/application-test.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/logback-spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/app/AppUserDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/app/appUpdate/AppUpdateDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/app/member/AppMemberDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/sys/SysConfigDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/sys/SysLogDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/sys/SysMenuDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/sys/SysRoleDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/sys/SysRoleMenuDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/sys/SysUserDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/sys/SysUserRoleDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/sys/SysUserTokenDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mapper/user/UserDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/css/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lang/translator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/backbone-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/es5-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/handlebars-4.0.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/highlight.9.1.0.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/highlight.9.1.0.pack_extended.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/jquery-1.8.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/jquery.ba-bbq.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/jquery.slideto.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/jquery.wiggle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/js-yaml.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/jsoneditor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/marked.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/object-assign-pollyfill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/sanitize-html.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/lib/swagger-oauth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/o2c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/oauth2-redirect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/swagger-ui-bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/swagger-ui-bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/swagger-ui-standalone-preset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/swagger-ui-standalone-preset.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/swagger-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/swagger-ui.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/swagger-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/swagger-ui.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/swagger-ui.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cute-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cute-generator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cute-rest/target/cute-rest-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cute-rest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cute-admin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/cute-rest/target/classes/static/swagger/css/typography.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/exception/RRException.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/exception/MCException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/exception/RRExceptionHandler.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/exception/MCExceptionHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cute-rest/src/main/resources/mybatis.xml" afterPath="$PROJECT_DIR$/cute-rest/src/main/resources/mybatis-config.xml" />
+    <list default="true" id="81c3316a-e96e-4b4c-8d35-985bd1713c8a" name="Default" comment="mc0628">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiVideoController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/dao/video/AppVideoDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/video/AppVideoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/video/impl/AppVideoServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/video/AppVideoDao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-rest/src/test/java/com/java/cute/rest/JsonTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cute-rest/target/test-classes/com/java/cute/rest/DynamicDataSourceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cute-rest/target/test-classes/com/java/cute/rest/JwtTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cute-rest/target/test-classes/com/java/cute/rest/RedisTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/video/controller/VideoController.class" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/video/controller/VideoController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/cute-admin-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cute-admin/target/cute-admin-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-core/target/cute-core-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cute-core/target/cute-core-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/target/classes/com/cute/java/generator/action/config/CuteGeneratorConfig.class" afterPath="$PROJECT_DIR$/cute-generator/target/classes/com/cute/java/generator/action/config/CuteGeneratorConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/target/classes/com/cute/java/generator/action/config/WebGeneratorConfig.class" afterPath="$PROJECT_DIR$/cute-generator/target/classes/com/cute/java/generator/action/config/WebGeneratorConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/target/classes/com/cute/java/generator/engine/config/ContextConfig.class" afterPath="$PROJECT_DIR$/cute-generator/target/classes/com/cute/java/generator/engine/config/ContextConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/target/cute-generator-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cute-generator/target/cute-generator-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/Swagger2.class" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/Swagger2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/AppBaseResult.class" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/common/utils/AppBaseResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/controller/ApiLoginController.class" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/controller/ApiLoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/controller/ApiMemberController.class" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/controller/ApiMemberController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/controller/ApiRegisterController.class" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/controller/ApiRegisterController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/service/member/AppMemberService.class" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/service/member/AppMemberService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/service/member/impl/AppMemberServiceImpl.class" afterPath="$PROJECT_DIR$/cute-rest/target/classes/com/java/cute/rest/modules/app/service/member/impl/AppMemberServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/cute-rest.jar" afterPath="$PROJECT_DIR$/cute-rest/target/cute-rest.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/cute-rest.jar.original" afterPath="$PROJECT_DIR$/cute-rest/target/cute-rest.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/cute-admin.iml" afterPath="$PROJECT_DIR$/cute-admin/cute-admin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/controller/VideoController.java" afterPath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/controller/VideoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cute-admin/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/webapp/static/css/plugins/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/cute-admin/src/main/webapp/static/css/plugins/codemirror/codemirror.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/webapp/static/js/plugins/codemirror/mode/modelica/modelica.js" afterPath="$PROJECT_DIR$/cute-admin/src/main/webapp/static/js/plugins/codemirror/mode/modelica/modelica.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/webapp/static/js/plugins/dataTables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/cute-admin/src/main/webapp/static/js/plugins/dataTables/jquery.dataTables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/webapp/static/js/plugins/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/cute-admin/src/main/webapp/static/js/plugins/flot/jquery.flot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/webapp/static/js/plugins/jsTree/jstree.js" afterPath="$PROJECT_DIR$/cute-admin/src/main/webapp/static/js/plugins/jsTree/jstree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/classes/application.yml" afterPath="$PROJECT_DIR$/cute-admin/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/classes/static/css/plugins/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/cute-admin/target/classes/static/css/plugins/codemirror/codemirror.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/classes/static/js/plugins/codemirror/mode/modelica/modelica.js" afterPath="$PROJECT_DIR$/cute-admin/target/classes/static/js/plugins/codemirror/mode/modelica/modelica.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/classes/static/js/plugins/dataTables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/cute-admin/target/classes/static/js/plugins/dataTables/jquery.dataTables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/classes/static/js/plugins/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/cute-admin/target/classes/static/js/plugins/flot/jquery.flot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/classes/static/js/plugins/jsTree/jstree.js" afterPath="$PROJECT_DIR$/cute-admin/target/classes/static/js/plugins/jsTree/jstree.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/cute-admin/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/cute-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/cute-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-core/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/cute-core/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/cute-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/cute-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/src/main/java/com/cute/java/generator/action/config/CuteGeneratorConfig.java" afterPath="$PROJECT_DIR$/cute-generator/src/main/java/com/cute/java/generator/action/config/CuteGeneratorConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/src/main/java/com/cute/java/generator/action/config/WebGeneratorConfig.java" afterPath="$PROJECT_DIR$/cute-generator/src/main/java/com/cute/java/generator/action/config/WebGeneratorConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/src/main/java/com/cute/java/generator/engine/config/ContextConfig.java" afterPath="$PROJECT_DIR$/cute-generator/src/main/java/com/cute/java/generator/engine/config/ContextConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/cute-generator/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/cute-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/cute-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/cute-rest.iml" afterPath="$PROJECT_DIR$/cute-rest/cute-rest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/pom.xml" afterPath="$PROJECT_DIR$/cute-rest/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/Swagger2.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/Swagger2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/aspect/RedisAspect.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/aspect/RedisAspect.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/AppBaseResult.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/AppBaseResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/ShiroUtils.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/ShiroUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/Tools.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/Tools.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/validator/Assert.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/validator/Assert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/validator/ValidatorUtils.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/validator/ValidatorUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/xss/SQLFilter.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/xss/SQLFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiLoginController.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiLoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiMemberController.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiMemberController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiRegisterController.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiRegisterController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiTestController.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiTestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/appUpdate/AppUpdateController.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/appUpdate/AppUpdateController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/interceptor/AuthorizationInterceptor.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/interceptor/AuthorizationInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/user/AppUserService.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/user/AppUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/controller/SysMenuController.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/controller/SysMenuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/oauth2/OAuth2Filter.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/oauth2/OAuth2Filter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/oauth2/TokenGenerator.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/oauth2/TokenGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/service/impl/SysConfigServiceImpl.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/service/impl/SysConfigServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/service/impl/SysRoleServiceImpl.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/service/impl/SysRoleServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/service/impl/SysUserServiceImpl.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/service/impl/SysUserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/user/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/user/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/resources/application-test.yml" afterPath="$PROJECT_DIR$/cute-rest/src/main/resources/application-test.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cute-rest/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/AppUserDao.xml" afterPath="$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/AppUserDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/appUpdate/AppUpdateDao.xml" afterPath="$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/appUpdate/AppUpdateDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/resources/static/swagger/swagger-ui-bundle.js" afterPath="$PROJECT_DIR$/cute-rest/src/main/resources/static/swagger/swagger-ui-bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/resources/static/swagger/swagger-ui-standalone-preset.js" afterPath="$PROJECT_DIR$/cute-rest/src/main/resources/static/swagger/swagger-ui-standalone-preset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/resources/static/swagger/swagger-ui.js" afterPath="$PROJECT_DIR$/cute-rest/src/main/resources/static/swagger/swagger-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/src/main/resources/static/swagger/swagger-ui.min.js" afterPath="$PROJECT_DIR$/cute-rest/src/main/resources/static/swagger/swagger-ui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/classes/application.yml" afterPath="$PROJECT_DIR$/cute-rest/target/classes/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/cute-rest/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/cute-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/cute-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
@@ -420,12 +66,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SysUserTokenService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/service/SysUserTokenService.java">
+      <file leaf-file-name="ApiVideoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiVideoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="286">
+              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cute-rest/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiRegisterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiRegisterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiLoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiLoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiMemberController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiMemberController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppVideoDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/dao/video/AppVideoDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppVideoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/video/AppVideoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppVideoServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/video/impl/AppVideoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -436,6 +162,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -511,14 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/member/service/IMemberService.java" />
-        <option value="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/member/dao/MemberMapper.java" />
-        <option value="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/member/dao/mapping/MemberMapper.xml" />
-        <option value="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/member/service/impl/MemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/app/resolver/LoginUserHandlerMethodArgumentResolver.java" />
-        <option value="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/app/controller/ApiLoginController.java" />
-        <option value="$PROJECT_DIR$/cute-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/InitVideo.java" />
         <option value="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/model/AliyunVideo.java" />
         <option value="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/util/AliyunVideo/InitVideo.java" />
         <option value="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/model/AliyunVideoEntiry.java" />
@@ -534,7 +253,6 @@
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/sysForum/ApiSysForumReplyController.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/sysForum/ApiSysForumPostController.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiMemberInviteUserInfoController.java" />
-        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiMemberController.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/resources/application-test.yml" />
         <option value="$PROJECT_DIR$/cute-rest/pom.xml" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/SmsUtils.java" />
@@ -546,22 +264,31 @@
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/dao/AppMemberDao.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/user/AppUserService.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/appUpdate/AppUpdateDao.xml" />
-        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiLoginController.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/AppUserDao.xml" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/interceptor/AuthorizationInterceptor.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/appUpdate/AppUpdateService.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/config/ShiroConfig.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/oauth2/OAuth2Filter.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiTestController.java" />
-        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/Swagger2.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/AppBaseResult.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/exception/MCExceptionHandler.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/member/AppMemberDao.xml" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/dao/member/AppMemberDao.java" />
-        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiRegisterController.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/member/AppMemberService.java" />
         <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/member/impl/AppMemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/Swagger2.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/video/AppVideoDao.xml" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/member/AppVideoService.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/member/impl/AppVideoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/AppBaseResult.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/dao/video/AppVideoDao.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/video/impl/AppVideoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/video/AppVideoService.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/test/java/com/java/cute/rest/JsonTest.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiRegisterController.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiLoginController.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiMemberController.java" />
+        <option value="$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiVideoController.java" />
       </list>
     </option>
   </component>
@@ -580,23 +307,629 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cute-rest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cute-rest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1280" />
     <option name="height" value="800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Accessibility</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Chrome OS</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization &gt; Bidirectional Text</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Lint</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Typography</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>AngularJS</id>
+          </State>
+          <State>
+            <id>Annotations verifyingGroovy</id>
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>ArquillianJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>BPMN 2.0 configuration errors</id>
+          </State>
+          <State>
+            <id>Batch Applications Issues</id>
+          </State>
+          <State>
+            <id>Bean Validation issues</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJava</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CFML</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Cloning issuesJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesCSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Compiler issuesJava</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issuesJava</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Cucumber Java</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Data flow issuesJava</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyGroovy</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>DeclarationGroovy</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Encapsulation issuesJava</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Finalization issuesJava</id>
+          </State>
+          <State>
+            <id>FlexUnit inspections</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>FreeMarker inspections</id>
+          </State>
+          <State>
+            <id>GPath inspectionsGroovy</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google App Engine</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Haml</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>J2ME SupportJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSF annotated elements errors</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 9Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Jpdl Model</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Language Injection</id>
+          </State>
+          <State>
+            <id>Less</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Manifest</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Memory issuesJava</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Other problemsKotlin</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Pages Navigation Model</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Play</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Properties FilesJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Reflective access issuesJava</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>SetupSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring BatchSpring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring DataSpring</id>
+          </State>
+          <State>
+            <id>Spring IntegrationSpring</id>
+          </State>
+          <State>
+            <id>Spring MVCSpring</id>
+          </State>
+          <State>
+            <id>Spring OSGiSpring</id>
+          </State>
+          <State>
+            <id>Spring SecuritySpring</id>
+          </State>
+          <State>
+            <id>Spring Web FlowSpring</id>
+          </State>
+          <State>
+            <id>Spring Web ServicesSpring</id>
+          </State>
+          <State>
+            <id>Spring WebSocketSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>StyleGroovy</id>
+          </State>
+          <State>
+            <id>Tapestry</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>Thymeleaf</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>Velocity inspections</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>WSDL issues</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+          <State>
+            <id>toString() issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SqlNoDataSourceInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -619,7 +952,6 @@
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -657,281 +989,17 @@
               <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="xss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cute-animal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cute-animal" type="462c0819:PsiDirectoryNode" />
-              <item name="cute-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -975,7 +1043,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CuteRestApplication">
+  <component name="RunManager" selected="JUnit.JsonTest.test">
     <configuration name="CuteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cute.java.CuteApplication" />
@@ -998,6 +1066,31 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cute.java.GunsApplication" />
       <module name="cute-admin" />
       <envs />
+    </configuration>
+    <configuration name="JsonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.java.cute.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cute-rest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.java.cute.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.java.cute.rest.JsonTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="SmsUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -1417,16 +1510,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.CuteApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.CuteRestApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.GunsApplication" />
       <item index="3" class="java.lang.String" itemvalue="Application.SmsUtils" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JsonTest.test" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.SmsUtils" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.GunsApplication" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JsonTest.test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SmsUtils" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.GunsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1458,7 +1553,8 @@
       <workItem from="1530059274775" duration="6294000" />
       <workItem from="1530065890163" duration="2743000" />
       <workItem from="1530068675218" duration="19527000" />
-      <workItem from="1530151443507" duration="511000" />
+      <workItem from="1530151443507" duration="12734000" />
+      <workItem from="1530185884453" duration="505000" />
     </task>
     <task id="LOCAL-00001" summary="video和rest">
       <created>1528955305398</created>
@@ -1474,28 +1570,45 @@
       <option name="project" value="LOCAL" />
       <updated>1529040168055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mc0628">
+      <created>1530152148080</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530152148080</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="JsonTest_test - 2018.06.28 at 18h 57m 00s.xml">
+      <configuration name="JsonTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_test - 2018.06.28 at 18h 57m 54s.xml">
+      <configuration name="JsonTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138781000" />
+    <option name="totallyTimeSpent" value="151509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1319" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58740157" sideWeight="0.5068847" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5872781" sideWeight="0.5068847" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34471804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38905326" sideWeight="0.4931153" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31453535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26767275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1503,16 +1616,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40858725" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40858725" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37811634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36426592" sideWeight="0.4931153" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32409972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1558,7 +1670,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="video和rest" />
     <MESSAGE value="登录接口app.logincontroller" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录接口app.logincontroller" />
+    <MESSAGE value="mc0628" />
+    <option name="LAST_COMMIT_MESSAGE" value="mc0628" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1571,109 +1684,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/PageUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiTestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/dao/SysLogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/user/AppUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/appUpdate/AppUpdateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/user/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="83" column="33" lean-forward="false" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/controller/SysUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="116" column="15" lean-forward="false" selection-start-line="116" selection-start-column="15" selection-end-line="116" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/entity/SysLogEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/bind/annotation/ExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
@@ -1685,7 +1695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1448">
           <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1693,7 +1702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="67" column="26" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1701,7 +1709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1712,62 +1719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/AppBaseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="44" column="37" lean-forward="false" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="61" column="47" lean-forward="false" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/exception/MCException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/controller/SysRoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="75" column="34" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiRegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/member/impl/AppMemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/dao/member/AppMemberDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1775,7 +1730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-867">
           <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1783,15 +1737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="30" column="13" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <marker date="1530014961335" expanded="true" signature="245:291" ph="select * fro... member" />
-            <marker date="1530014961335" expanded="true" signature="362:382" ph="select * fro... member" />
-            <marker date="1530014961335" expanded="true" signature="833:861" ph="select count... tb_user" />
-            <marker date="1530014961335" expanded="true" signature="937:983" ph="select * fro... member" />
-            <marker date="1530014961335" expanded="true" signature="1054:1157" ph="insert into member... " />
-            <marker date="1530014961335" expanded="true" signature="1230:1541" ph="update tb_us... " />
-            <marker date="1530014961335" expanded="true" signature="1579:1623" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1799,9 +1744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1809,18 +1751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/member/AppMemberDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <marker date="1530092888889" expanded="true" signature="300:455" ph="insert into member... " />
-            <marker date="1530092888889" expanded="true" signature="544:590" ph="select * fro... member" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1828,22 +1758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/resources/mapper/sys/SysUserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="35" />
-          <folding>
-            <marker date="1529655074458" expanded="true" signature="309:356" ph="select * fro... sys_user" />
-            <marker date="1529655074458" expanded="true" signature="1375:1552" ph="select m.per... sys_user_role" />
-            <marker date="1529655074458" expanded="true" signature="1639:1777" ph="select disti... sys_user_role" />
-            <marker date="1529655074458" expanded="true" signature="1889:1940" ph="select * fro... sys_user" />
-            <marker date="1529655074458" expanded="true" signature="2089:2411" ph="insert into sys_user... " />
-            <marker date="1529655074458" expanded="true" signature="3027:3131" ph="update sys_u... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1858,7 +1772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1873,7 +1786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1881,7 +1793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1896,7 +1807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-548">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1904,7 +1814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1919,7 +1828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1927,7 +1835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1935,7 +1842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1943,7 +1849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1951,10 +1856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1962,20 +1863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="51" column="57" lean-forward="true" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
-          <folding>
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/controller/SysLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-316">
-          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1983,14 +1870,191 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/service/SysUserTokenService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="107">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/resources/mapper/sys/SysUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/member/AppMemberDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/dao/member/AppMemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/member/impl/AppMemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/resources/mapper/app/video/AppVideoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/controller/SysConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/controller/SysLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640">
+          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/sys/controller/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="75" column="34" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/dao/video/AppVideoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/video/impl/AppVideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/service/video/AppVideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar!/com/google/gson/reflect/TypeToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar!/com/google/gson/Gson.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="85" column="17" lean-forward="false" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/test/java/com/java/cute/rest/JsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="1591" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="1591" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/common/utils/AppBaseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="95" column="32" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/appUpdate/AppUpdateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiMemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiRegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/java/com/java/cute/rest/modules/app/controller/ApiVideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cute-rest/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2035,7 +2099,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android API 27 Platform</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
