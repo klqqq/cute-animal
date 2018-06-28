@@ -1,7 +1,7 @@
 package com.java.cute.rest.modules.sys.controller;
 
 import com.java.cute.rest.common.annotation.SysLog;
-import com.java.cute.rest.common.exception.RRException;
+import com.java.cute.rest.common.exception.MCException;
 import com.java.cute.rest.common.utils.Constant.MenuType;
 import com.java.cute.rest.common.utils.R;
 import com.java.cute.rest.modules.sys.entity.SysMenuEntity;
@@ -138,17 +138,17 @@ public class SysMenuController extends AbstractController {
 	 */
 	private void verifyForm(SysMenuEntity menu){
 		if(StringUtils.isBlank(menu.getName())){
-			throw new RRException("菜单名称不能为空");
+			throw new MCException("菜单名称不能为空");
 		}
 		
 		if(menu.getParentId() == null){
-			throw new RRException("上级菜单不能为空");
+			throw new MCException("上级菜单不能为空");
 		}
 		
 		//菜单
 		if(menu.getType() == MenuType.MENU.getValue()){
 			if(StringUtils.isBlank(menu.getUrl())){
-				throw new RRException("菜单URL不能为空");
+				throw new MCException("菜单URL不能为空");
 			}
 		}
 		
@@ -163,7 +163,7 @@ public class SysMenuController extends AbstractController {
 		if(menu.getType() == MenuType.CATALOG.getValue() ||
 				menu.getType() == MenuType.MENU.getValue()){
 			if(parentType != MenuType.CATALOG.getValue()){
-				throw new RRException("上级菜单只能为目录类型");
+				throw new MCException("上级菜单只能为目录类型");
 			}
 			return ;
 		}
@@ -171,7 +171,7 @@ public class SysMenuController extends AbstractController {
 		//按钮
 		if(menu.getType() == MenuType.BUTTON.getValue()){
 			if(parentType != MenuType.MENU.getValue()){
-				throw new RRException("上级菜单只能为菜单类型");
+				throw new MCException("上级菜单只能为菜单类型");
 			}
 			return ;
 		}

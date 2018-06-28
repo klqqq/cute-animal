@@ -1,12 +1,12 @@
 package com.java.cute.rest.modules.app.service.user;
 
-import com.java.cute.rest.common.exception.RRException;
 import com.java.cute.rest.common.validator.Assert;
 import com.java.cute.rest.modules.app.service.ServiceSupport;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.stereotype.Service;
-import java.util.Date;
+
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Created by bnz on 2018/1/5.
@@ -21,16 +21,16 @@ public class AppUserService extends ServiceSupport {
      * @throws Exception
      */
     public HashMap<String,Object> queryByMobile(HashMap<String,Object> param) throws Exception {
-        String mobile = param.get("mobile").toString();
-        String password = param.get("password").toString();
-        HashMap<String,Object> user = findForObject("api.AppUserDao.queryByMobile", mobile);
+        String username = param.get("username").toString();
+        //String password = param.get("password").toString();
+        HashMap<String,Object> user = findForObject("app.AppUserDao.queryByMobile", username);
         Assert.isNull(user, "用户不存在");
 
         //密码错误
-        String userpassword = DigestUtils.sha256Hex(password);
-        if(!user.get("password").equals(userpassword)){
-            throw new RRException("密码错误");
-        }
+//        String userpassword = DigestUtils.sha256Hex(password);
+//        if(!user.get("password").equals(userpassword)){
+//            throw new MCException("密码错误");
+//        }
         return user;
     }
 
@@ -40,9 +40,17 @@ public class AppUserService extends ServiceSupport {
      */
     public void save(HashMap<String,Object> param) throws Exception {
         String password = param.get("password").toString();
-        param.put("password",DigestUtils.sha256Hex(password));
-        param.put("createTime",new Date());
+        param.put("password",DigestUtils.sha256Hex(password).substring(0,31));
+//        param.put("createTime",new Date());
         insert("api.AppUserDao.save",param);
+    }
+
+
+    /**
+     *  查询用户
+     */
+    public List<HashMap<String,Object>> queryList(HashMap<String,Object> param) throws Exception{
+        return findForList("app.AppUserDao.queryList",param);
     }
 
 }

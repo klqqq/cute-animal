@@ -33,14 +33,14 @@
         <aliyun.oss.version>2.5.0</aliyun.oss.version>
         <qcloud.cos.version>4.4</qcloud.cos.version>
 
-        <!--wagon plugin 配置-->
-        <service-path>/work/rest</service-path>
-        <pack-name>${artifactId}-${version}.jar</pack-name>
-        <remote-addr>192.168.1.10:22</remote-addr>
-        <remote-username>root</remote-username>
-        <remote-passwd>123456</remote-passwd>
-        <!--webmagic 配置-->
-        <us.codecraft.version>0.7.3</us.codecraft.version>
+        <!--&lt;!&ndash;wagon plugin 配置&ndash;&gt;-->
+        <!--<service-path>/work/rest</service-path>-->
+        <!--<pack-name>${artifactId}-${version}.jar</pack-name>-->
+        <!--<remote-addr>192.168.1.10:22</remote-addr>-->
+        <!--<remote-username>root</remote-username>-->
+        <!--<remote-passwd>123456</remote-passwd>-->
+        <!--&lt;!&ndash;webmagic 配置&ndash;&gt;-->
+        <!--<us.codecraft.version>0.7.3</us.codecraft.version>-->
     </properties>
 
     <dependencies>
@@ -182,26 +182,39 @@
         </dependency>
 
         <!--webmagic !!!-->
-        <dependency>
-            <groupId>us.codecraft</groupId>
-            <artifactId>webmagic-core</artifactId>
-            <version>${us.codecraft.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>us.codecraft</groupId>
-            <artifactId>webmagic-extension</artifactId>
-            <version>${us.codecraft.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-log4j12</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>us.codecraft</groupId>-->
+            <!--<artifactId>webmagic-core</artifactId>-->
+            <!--<version>${us.codecraft.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>us.codecraft</groupId>-->
+            <!--<artifactId>webmagic-extension</artifactId>-->
+            <!--<version>${us.codecraft.version}</version>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.slf4j</groupId>-->
+                    <!--<artifactId>slf4j-log4j12</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>4.3.9.RELEASE</version>
+        </dependency>
+
+
+        <!-- alidayu -->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
@@ -230,26 +243,26 @@
                     <skipTests>true</skipTests>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>wagon-maven-plugin</artifactId>
-                <version>1.0</version>
-                <configuration>
-                    <fromFile>target/${pack-name}</fromFile>
-                    <url><![CDATA[scp://${remote-username}:${remote-passwd}@${remote-addr}${service-path}]]></url>
-                    <commands>
-                        <!-- Kill Old Process -->
-                        <command>pkill -f ${pack-name}</command>
-                        <command>rm -f ${service-path}/rest.log</command>
-                        <!-- Restart jar package，write result into gzhr.log -->
-                        <command><![CDATA[nohup java -jar ${service-path}/${pack-name} --spring.profiles.active=test > ${service-path}/rest.log 2>&1 & ]]></command>
-                        <command><![CDATA[netstat -nptl]]></command>
-                        <command><![CDATA[ps -ef | grep java | grep -v grep]]></command>
-                    </commands>
-                    <!-- 运行命令 mvn clean package wagon:upload-single wagon:sshexec-->
-                    <displayCommandOutputs>true</displayCommandOutputs>
-                </configuration>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.codehaus.mojo</groupId>-->
+                <!--<artifactId>wagon-maven-plugin</artifactId>-->
+                <!--<version>1.0</version>-->
+                <!--<configuration>-->
+                    <!--<fromFile>target/${pack-name}</fromFile>-->
+                    <!--<url><![CDATA[scp://${remote-username}:${remote-passwd}@${remote-addr}${service-path}]]></url>-->
+                    <!--<commands>-->
+                        <!--&lt;!&ndash; Kill Old Process &ndash;&gt;-->
+                        <!--<command>pkill -f ${pack-name}</command>-->
+                        <!--<command>rm -f ${service-path}/rest.log</command>-->
+                        <!--&lt;!&ndash; Restart jar package，write result into gzhr.log &ndash;&gt;-->
+                        <!--<command><![CDATA[nohup java -jar ${service-path}/${pack-name} &#45;&#45;spring.profiles.active=test > ${service-path}/rest.log 2>&1 & ]]></command>-->
+                        <!--<command><![CDATA[netstat -nptl]]></command>-->
+                        <!--<command><![CDATA[ps -ef | grep java | grep -v grep]]></command>-->
+                    <!--</commands>-->
+                    <!--&lt;!&ndash; 运行命令 mvn clean package wagon:upload-single wagon:sshexec&ndash;&gt;-->
+                    <!--<displayCommandOutputs>true</displayCommandOutputs>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
 
             <plugin>
                 <groupId>com.spotify</groupId>

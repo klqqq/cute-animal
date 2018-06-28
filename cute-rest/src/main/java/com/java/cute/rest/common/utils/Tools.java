@@ -38,7 +38,7 @@ public class Tools {
 	 * @param s
 	 * @return 为空则返回true，不否则返回false
 	 */
-	public static boolean isEmpty(String s) {
+	public static boolean isEmpty(Object s) {
 		return s == null || "".equals(s) || "null".equals(s);
 	}
 

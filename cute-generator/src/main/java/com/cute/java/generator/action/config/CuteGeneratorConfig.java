@@ -36,7 +36,7 @@ public class CuteGeneratorConfig extends AbstractGeneratorConfig {
 
     protected void packageConfig() {
         packageConfig.setParent(null);
-        packageConfig.setEntity("com.cute.java.admin.common.persistence.model");
+        packageConfig.setEntity("com.cute.java.admin.common.persistence.entity");
         packageConfig.setMapper("com.cute.java.admin.common.persistence.dao");
         packageConfig.setXml("com.cute.java.admin.common.persistence.dao.mapping");
     }

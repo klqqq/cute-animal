@@ -1,6 +1,6 @@
 package com.java.cute.rest.modules.user.service.impl;
 
-import com.java.cute.rest.common.exception.RRException;
+import com.java.cute.rest.common.exception.MCException;
 import com.java.cute.rest.common.validator.Assert;
 import com.java.cute.rest.modules.user.entity.UserEntity;
 import org.apache.commons.codec.digest.DigestUtils;
@@ -81,7 +81,7 @@ public class UserServiceImpl implements UserService {
 		//密码错误
 		String userpassword = DigestUtils.sha256Hex(password);
 		if(!user.getPassword().equals(userpassword)){
-			throw new RRException("密码错误");
+			throw new MCException("密码错误");
 		}
 
 		return user.getUserId();

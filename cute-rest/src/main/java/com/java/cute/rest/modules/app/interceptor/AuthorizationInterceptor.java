@@ -2,7 +2,7 @@ package com.java.cute.rest.modules.app.interceptor;
 
 
 import io.jsonwebtoken.Claims;
-import com.java.cute.rest.common.exception.RRException;
+import com.java.cute.rest.common.exception.MCException;
 import com.java.cute.rest.modules.app.utils.JwtUtils;
 import com.java.cute.rest.modules.app.annotation.Login;
 import org.apache.commons.lang.StringUtils;
@@ -26,7 +26,7 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
     @Autowired
     private JwtUtils jwtUtils;
 
-    public static final String USER_KEY = "userId";
+    public static final String USER_KEY = "username";
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -49,16 +49,16 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
 
         //凭证为空
         if(StringUtils.isBlank(token)){
-            throw new RRException(jwtUtils.getHeader() + "不能为空", HttpStatus.UNAUTHORIZED.value());
+            throw new MCException(jwtUtils.getHeader() + "不能为空", HttpStatus.UNAUTHORIZED.value());
         }
 
         Claims claims = jwtUtils.getClaimByToken(token);
         if(claims == null || jwtUtils.isTokenExpired(claims.getExpiration())){
-            throw new RRException(jwtUtils.getHeader() + "失效，请重新登录", HttpStatus.UNAUTHORIZED.value());
+            throw new MCException(jwtUtils.getHeader() + "失效，请重新登录", HttpStatus.UNAUTHORIZED.value());
         }
 
         //设置userId到request里，后续根据userId，获取用户信息
-        request.setAttribute(USER_KEY, Long.parseLong(claims.getSubject()));
+//        request.setAttribute(USER_KEY, Long.parseLong(claims.getSubject()));
 
         return true;
     }

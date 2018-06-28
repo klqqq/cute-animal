@@ -1,6 +1,6 @@
 package com.java.cute.rest.modules.sys.oauth2;
 
-import com.java.cute.rest.common.exception.RRException;
+import com.java.cute.rest.common.exception.MCException;
 
 import java.security.MessageDigest;
 import java.util.UUID;
@@ -40,7 +40,7 @@ public class TokenGenerator {
             byte[] messageDigest = algorithm.digest();
             return toHexString(messageDigest);
         } catch (Exception e) {
-            throw new RRException("生成Token失败", e);
+            throw new MCException("生成Token失败", e);
         }
     }
 }

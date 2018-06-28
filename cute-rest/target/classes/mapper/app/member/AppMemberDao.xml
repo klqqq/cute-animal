@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.java.cute.rest.modules.app.dao.member.AppMemberDao">
+
+    <insert id="registerMember" parameterType="java.util.HashMap">
+        insert into member
+        (
+        `username`,
+        `flag_user`
+        )
+        values
+        (
+        #{username},
+        #{flag_user}
+        )
+    </insert>
+
+    <select id="queryByUserName" resultType="java.util.HashMap">
+        select * from member where username = #{value}
+    </select>
+</mapper>

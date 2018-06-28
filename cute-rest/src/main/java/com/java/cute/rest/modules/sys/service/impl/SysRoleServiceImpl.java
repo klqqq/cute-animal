@@ -7,7 +7,7 @@ import com.java.cute.rest.modules.sys.service.SysRoleService;
 import com.java.cute.rest.modules.sys.service.SysUserRoleService;
 import com.java.cute.rest.modules.sys.service.SysUserService;
 import com.java.cute.rest.common.utils.Constant;
-import com.java.cute.rest.common.exception.RRException;
+import com.java.cute.rest.common.exception.MCException;
 
 import java.util.Date;
 import java.util.List;
@@ -102,7 +102,7 @@ public class SysRoleServiceImpl implements SysRoleService {
 		
 		//判断是否越权
 		if(!menuIdList.containsAll(role.getMenuIdList())){
-			throw new RRException("新增角色的权限，已超出你的权限范围");
+			throw new MCException("新增角色的权限，已超出你的权限范围");
 		}
 	}
 }

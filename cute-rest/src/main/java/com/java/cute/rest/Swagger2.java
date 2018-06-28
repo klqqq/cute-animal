@@ -29,6 +29,7 @@ public class Swagger2 {
                 //控制暴露出去的路径下的实例
                 //如果某个接口不想暴露,可以使用以下注解
                 //这样,该接口就不会暴露在 swagger2 的页面下
+                //.apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
                 .apis(RequestHandlerSelectors.basePackage("com.java.cute.rest.modules.app"))
                 .paths(PathSelectors.any())
                 .build();
@@ -39,7 +40,7 @@ public class Swagger2 {
                 //页面标题
                 .title("萌话Restful API")
                 //创建人
-                .contact("429")
+//                .contact("429")
                 //版本号
                 .version("1.0")
                 //描述

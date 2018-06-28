@@ -1,6 +1,6 @@
 package com.java.cute.rest.common.utils;
 
-import com.java.cute.rest.common.exception.RRException;
+import com.java.cute.rest.common.exception.MCException;
 import com.java.cute.rest.modules.sys.entity.SysUserEntity;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.session.Session;
@@ -46,7 +46,7 @@ public class ShiroUtils {
 	public static String getKaptcha(String key) {
 		Object kaptcha = getSessionAttribute(key);
 		if(kaptcha == null){
-			throw new RRException("验证码已失效");
+			throw new MCException("验证码已失效");
 		}
 		getSession().removeAttribute(key);
 		return kaptcha.toString();

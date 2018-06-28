@@ -3,6 +3,7 @@ package com.cute.java.modular.video.controller;
 import com.cute.java.core.base.controller.BaseController;
 import com.cute.java.core.base.tips.Tip;
 import com.cute.java.core.util.AppBaseResult;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
