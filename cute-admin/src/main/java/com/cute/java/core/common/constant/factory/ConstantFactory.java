@@ -6,13 +6,13 @@ import com.cute.java.core.common.constant.cache.Cache;
 import com.cute.java.core.common.constant.cache.CacheKey;
 import com.cute.java.core.common.constant.state.ManagerStatus;
 import com.cute.java.core.common.constant.state.MenuStatus;
-import com.cute.java.modular.system.dao.*;
-import com.cute.java.modular.system.model.*;
 import com.cute.java.core.log.LogObjectHolder;
 import com.cute.java.core.support.StrKit;
 import com.cute.java.core.util.Convert;
 import com.cute.java.core.util.SpringContextHolder;
 import com.cute.java.core.util.ToolUtil;
+import com.cute.java.modular.system.dao.*;
+import com.cute.java.modular.system.model.*;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Component;
@@ -36,6 +36,7 @@ public class ConstantFactory implements IConstantFactory {
     private UserMapper userMapper = SpringContextHolder.getBean(UserMapper.class);
     private MenuMapper menuMapper = SpringContextHolder.getBean(MenuMapper.class);
     private NoticeMapper noticeMapper = SpringContextHolder.getBean(NoticeMapper.class);
+    //private VideoMapper videoMapper = SpringContextHolder.getBean(VideoMapper.class);
 
     public static IConstantFactory me() {
         return SpringContextHolder.getBean("constantFactory");
