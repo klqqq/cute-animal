@@ -1,6 +1,6 @@
 package com.java.cute.rest.common.xss;
 
-import com.java.cute.rest.common.exception.RRException;
+import com.java.cute.rest.common.exception.MCException;
 import org.apache.commons.lang.StringUtils;
 
 /**
@@ -34,7 +34,7 @@ public class SQLFilter {
         //判断是否包含非法字符
         for(String keyword : keywords){
             if(str.indexOf(keyword) != -1){
-                throw new RRException("包含非法字符");
+                throw new MCException("包含非法字符");
             }
         }
 

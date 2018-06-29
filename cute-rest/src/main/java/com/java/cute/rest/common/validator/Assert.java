@@ -1,6 +1,6 @@
 package com.java.cute.rest.common.validator;
 
-import com.java.cute.rest.common.exception.RRException;
+import com.java.cute.rest.common.exception.MCException;
 import org.apache.commons.lang.StringUtils;
 
 import java.util.regex.Matcher;
@@ -16,13 +16,13 @@ public abstract class Assert {
 
     public static void isBlank(String str, String message) {
         if (StringUtils.isBlank(str)) {
-            throw new RRException(message);
+            throw new MCException(message);
         }
     }
 
     public static void isNull(Object object, String message) {
         if (object == null) {
-            throw new RRException(message);
+            throw new MCException(message);
         }
     }
     public static boolean checkCellphone(String cellphone) {

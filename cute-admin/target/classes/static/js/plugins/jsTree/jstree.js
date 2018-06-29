@@ -1418,7 +1418,7 @@
 		 * @name _append_html_data(obj, data)
 		 * @param  {mixed} obj the node to append to
 		 * @param  {String} data the HTML string to parse and append
-		 * @trigger model.jstree, changed.jstree
+		 * @trigger entity.jstree, changed.jstree
 		 */
 		_append_html_data : function (dom, data, cb) {
 			dom = this.get_node(dom);
@@ -1448,7 +1448,7 @@
 				m[p.parents[i]].children_d = m[p.parents[i]].children_d.concat(dpc);
 			}
 			/**
-			 * triggered when new data is inserted to the tree model
+			 * triggered when new data is inserted to the tree entity
 			 * @event
 			 * @name model.jstree
 			 * @param {Array} nodes an array of node IDs
@@ -1475,7 +1475,7 @@
 		 * @param  {mixed} obj the node to append to
 		 * @param  {String} data the JSON object to parse and append
 		 * @param  {Boolean} force_processing internal param - do not set
-		 * @trigger model.jstree, changed.jstree
+		 * @trigger entity.jstree, changed.jstree
 		 */
 		_append_json_data : function (dom, data, cb, force_processing) {
 			if(this.element === null) { return; }
@@ -1867,13 +1867,13 @@
 			}
 		},
 		/**
-		 * parses a node from a jQuery object and appends them to the in memory tree model. Used internally.
+		 * parses a node from a jQuery object and appends them to the in memory tree entity. Used internally.
 		 * @private
 		 * @name _parse_model_from_html(d [, p, ps])
 		 * @param  {jQuery} d the jQuery object to parse
 		 * @param  {String} p the parent ID
 		 * @param  {Array} ps list of all parents
-		 * @return {String} the ID of the object added to the model
+		 * @return {String} the ID of the object added to the entity
 		 */
 		_parse_model_from_html : function (d, p, ps) {
 			if(!ps) { ps = []; }
@@ -1979,13 +1979,13 @@
 			return data.id;
 		},
 		/**
-		 * parses a node from a JSON object (used when dealing with flat data, which has no nesting of children, but has id and parent properties) and appends it to the in memory tree model. Used internally.
+		 * parses a node from a JSON object (used when dealing with flat data, which has no nesting of children, but has id and parent properties) and appends it to the in memory tree entity. Used internally.
 		 * @private
 		 * @name _parse_model_from_flat_json(d [, p, ps])
 		 * @param  {Object} d the JSON object to parse
 		 * @param  {String} p the parent ID
 		 * @param  {Array} ps list of all parents
-		 * @return {String} the ID of the object added to the model
+		 * @return {String} the ID of the object added to the entity
 		 */
 		_parse_model_from_flat_json : function (d, p, ps) {
 			if(!ps) { ps = []; }
@@ -2077,13 +2077,13 @@
 			return tmp.id;
 		},
 		/**
-		 * parses a node from a JSON object and appends it to the in memory tree model. Used internally.
+		 * parses a node from a JSON object and appends it to the in memory tree entity. Used internally.
 		 * @private
 		 * @name _parse_model_from_json(d [, p, ps])
 		 * @param  {Object} d the JSON object to parse
 		 * @param  {String} p the parent ID
 		 * @param  {Array} ps list of all parents
-		 * @return {String} the ID of the object added to the model
+		 * @return {String} the ID of the object added to the entity
 		 */
 		_parse_model_from_json : function (d, p, ps) {
 			if(!ps) { ps = []; }
@@ -3482,7 +3482,7 @@
 			}
 			i = $.inArray(obj.id, this._data.core.selected);
 			if(i !== -1) { this._data.core.selected[i] = id; }
-			// update model and obj itself (obj.id, this._model.data[KEY])
+			// update entity and obj itself (obj.id, this._model.data[KEY])
 			i = this.get_node(obj.id, true);
 			if(i) {
 				i.attr('id', id).children('.jstree-anchor').attr('id', id + '_anchor').end().attr('aria-labelledby', id + '_anchor');
@@ -3612,7 +3612,7 @@
 		 * @param  {Function} callback a function to be called once the node is created
 		 * @param  {Boolean} is_loaded internal argument indicating if the parent node was succesfully loaded
 		 * @return {String}            the ID of the newly create node
-		 * @trigger model.jstree, create_node.jstree
+		 * @trigger entity.jstree, create_node.jstree
 		 */
 		create_node : function (par, node, pos, callback, is_loaded) {
 			if(par === null) { par = $.jstree.root; }
@@ -4034,7 +4034,7 @@
 		 * @param  {Boolean} is_loaded internal parameter indicating if the parent node has been loaded
 		 * @param  {Boolean} skip_redraw internal parameter indicating if the tree should be redrawn
 		 * @param  {Boolean} instance internal parameter indicating if the node comes from another instance
-		 * @trigger model.jstree copy_node.jstree
+		 * @trigger entity.jstree copy_node.jstree
 		 */
 		copy_node : function (obj, par, pos, callback, is_loaded, skip_redraw, origin) {
 			var t1, t2, dpc, tmp, i, j, node, old_par, new_par, old_ins, is_multi;

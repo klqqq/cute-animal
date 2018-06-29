@@ -56,7 +56,7 @@ spring:
 ###################  mybatis-plus配置  ###################
 mybatis-plus:
   mapper-locations: classpath*:com/cute/java/**/mapping/*.xml
-  typeAliasesPackage: com.cute.java.modular.system.model
+  typeAliasesPackage: com.cute.java.modular.system.entity
   global-config:
     id-type: 0  #0:数据库ID自增   1:用户输入id  2:全局唯一id(IdWorker)  3:全局唯一ID(uuid)
     db-column-underline: false
@@ -79,7 +79,11 @@ mybatis-plus:
 spring:
   profiles: dev
   datasource:
+<<<<<<< HEAD
     url: jdbc:mysql://47.106.111.100/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+=======
+    url: jdbc:mysql://47.106.111.100:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+>>>>>>> 4e2ddd5239b43ea6f316afb582dafea9753c3c6f
     username: root
     password: mengchong
     db-name: cute
@@ -89,14 +93,14 @@ spring:
 cute:
   flowable:
     datasource:
-      url: jdbc:mysql://127.0.0.1:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      url: jdbc:mysql://47.106.111.100:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
       username: root
-      password: root
+      password: mengchong
   muti-datasource:
     default-dataSource-name: dataSourceCute #默认的数据源名称
-    url: jdbc:mysql://127.0.0.1:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    url: jdbc:mysql://47.106.111.100:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     username: root
-    password: root
+    password: mengchong
 
 logging:
   level.root: info
@@ -112,9 +116,9 @@ logging:
 spring:
   profiles: produce
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      url: jdbc:mysql://47.106.111.100:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
       username: root
-      password: root
+      password: mengchong
       filters: log4j,wall,mergeStat
 
 logging:

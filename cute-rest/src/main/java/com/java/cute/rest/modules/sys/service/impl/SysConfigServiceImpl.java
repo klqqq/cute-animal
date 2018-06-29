@@ -1,7 +1,7 @@
 package com.java.cute.rest.modules.sys.service.impl;
 
 import com.google.gson.Gson;
-import com.java.cute.rest.common.exception.RRException;
+import com.java.cute.rest.common.exception.MCException;
 import com.java.cute.rest.modules.sys.dao.SysConfigDao;
 import com.java.cute.rest.modules.sys.entity.SysConfigEntity;
 import com.java.cute.rest.modules.sys.redis.SysConfigRedis;
@@ -89,7 +89,7 @@ public class SysConfigServiceImpl implements SysConfigService {
 		try {
 			return clazz.newInstance();
 		} catch (Exception e) {
-			throw new RRException("获取参数失败");
+			throw new MCException("获取参数失败");
 		}
 	}
 }

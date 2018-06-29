@@ -17,9 +17,9 @@ public class AppBaseResult<T> implements Serializable {
 
 	private int code = 500;
 	private String message = "";
-	private String data = "";
-	private String version = "1.0";
-	private String mobile = "";
+	private Object data;
+//	private String version = "1.0";
+//	private String mobile = "";
 
 	public final static int ERROR = 401;
 	public final static int SUCCESS = 200;
@@ -75,11 +75,11 @@ public class AppBaseResult<T> implements Serializable {
 		this.message = message;
 		return this;
 	}
-	public String getData() {
+	public Object getData() {
 		return  this.data;
 	}
 
-	public void setData(String data) {
+	public void setData(T data) {
 		this.data = data;
 	}
 
@@ -96,12 +96,12 @@ public class AppBaseResult<T> implements Serializable {
 		return new Gson().fromJson(mData,new TypeToken<HashMap<String,Object>>() {}.getType());
 	}
 
-	public String decryptData() {
-		String mData = null;
+	public Object decryptData() {
+		Object mData = null;
 		if(!Tools.isEmpty(this.data)){
 			try {
-				mData = CDESCrypt.decryptString(this.data, KEY);
-				//mData=this.data;
+				//mData = CDESCrypt.decryptString(this.data, KEY);
+				mData=this.data;
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -109,12 +109,12 @@ public class AppBaseResult<T> implements Serializable {
 		return mData;
 	}
 	
-	public AppBaseResult setEncryptData(T t) {
+	public AppBaseResult setEncryptData(Object t) {
 		String mData = new Gson().toJson(t);
 		try {
 			if(!Tools.isEmpty(mData)){
-				this.data = CDESCrypt.encryptString(mData, KEY);
-				//this.data=mData;
+				//this.data = CDESCrypt.encryptString(mData, KEY);
+				this.data=mData;
 			}else{
 				this.data = mData;
 			}
@@ -124,22 +124,22 @@ public class AppBaseResult<T> implements Serializable {
 		return this;
 	}
 
-	public String getVersion() {
-		return version;
-	}
-	public AppBaseResult setVersion(String version) {
-		this.version = version;
-		return this;
-	}
-
-	public String getMobile() {
-		return mobile;
-	}
-
-	public AppBaseResult setMobile(String mobile) {
-		this.mobile = mobile;
-		return this;
-	}
+//	public String getVersion() {
+//		return version;
+//	}
+//	public AppBaseResult setVersion(String version) {
+//		this.version = version;
+//		return this;
+//	}
+//
+//	public String getMobile() {
+//		return mobile;
+//	}
+//
+//	public AppBaseResult setMobile(String mobile) {
+//		this.mobile = mobile;
+//		return this;
+//	}
 
 	@Override
 	public String toString() {
@@ -147,8 +147,6 @@ public class AppBaseResult<T> implements Serializable {
 				"code='" + code + '\'' +
 				", message='" + message + '\'' +
 				", data='" + data + '\'' +
-				", version='" + version + '\'' +
-				", mobile='" + mobile + '\'' +
 				'}';
 	}
 }

@@ -4,7 +4,7 @@ server:
         uri-encoding: UTF-8
         max-threads: 1000
         min-spare-threads: 30
-    port: 8080
+    port: 8088
     connection-timeout: 5000
     context-path: /rest
 
@@ -39,13 +39,13 @@ spring:
 # Mybatis配置
 mybatis:
     mapperLocations: classpath:mapper/**/*.xml
-    configLocation: classpath:mybatis.xml
+    configLocation: classpath:mybatis-config.xml
 
 jwtconfig:
     # APP模块，是通过jwt认证的，如果要使用APP模块，则需要修改【加密秘钥】
     jwt:
         # 加密秘钥
-        secret: f4e2e52034348f86b67cde581c0f9eb5
+        secret: f4e2e52034348f86b67cde581c0f9eb5[www.renren.io]
         # token有效时长，7天，单位秒
         expire: 604800
         header: token

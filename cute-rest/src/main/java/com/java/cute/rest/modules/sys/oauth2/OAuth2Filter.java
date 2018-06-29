@@ -16,7 +16,8 @@ import java.io.IOException;
 
 /**
  * oauth2过滤器
- *
+ * 认证相关的过滤  AuthenticatingFilter
+ * 授权相关的过滤  AuthorizationFilter
  * @author bnz
  * @email object_bnz@163.com
  * @date 2017-05-20 13:00

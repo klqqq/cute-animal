@@ -1,6 +1,6 @@
 package com.java.cute.rest.modules.sys.service.impl;
 
-import com.java.cute.rest.common.exception.RRException;
+import com.java.cute.rest.common.exception.MCException;
 import com.java.cute.rest.modules.sys.dao.SysUserDao;
 import com.java.cute.rest.modules.sys.service.SysRoleService;
 import com.java.cute.rest.modules.sys.service.SysUserRoleService;
@@ -131,7 +131,7 @@ public class SysUserServiceImpl implements SysUserService {
 		
 		//判断是否越权
 		if(!roleIdList.containsAll(user.getRoleIdList())){
-			throw new RRException("新增用户所选角色，不是本人创建");
+			throw new MCException("新增用户所选角色，不是本人创建");
 		}
 	}
 }

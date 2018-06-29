@@ -20,7 +20,7 @@ public class ContextConfig {
 
     private String proPackage = "com.cute.java.admin";
     private String coreBasePackage = "com.cute.java.core";
-    private String modelPackageName = "com.cute.java.modular.system.model";        //model的包名
+    private String modelPackageName = "com.cute.java.modular.system.entity";        //model的包名
     private String modelMapperPackageName = "com.cute.java.modular.system.dao";    //model的dao
     private String entityName;              //实体的名称
 
@@ -39,7 +39,7 @@ public class ContextConfig {
         if (entityName == null) {
             entityName = bizEnBigName;
         }
-        modelPackageName = proPackage + "." + "modular.system.model";
+        modelPackageName = proPackage + "." + "modular.system.entity";
         modelMapperPackageName = proPackage + "." + "modular.system.dao";
     }
 

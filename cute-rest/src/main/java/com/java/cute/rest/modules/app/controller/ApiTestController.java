@@ -1,13 +1,18 @@
 package com.java.cute.rest.modules.app.controller;
+import com.google.gson.Gson;
+import com.java.cute.rest.common.utils.AppBaseResult;
 import com.java.cute.rest.common.utils.R;
+import com.java.cute.rest.common.validator.Assert;
 import com.java.cute.rest.modules.app.annotation.AuthIgnore;
 import com.java.cute.rest.modules.app.annotation.Login;
 import com.java.cute.rest.modules.app.annotation.LoginUser;
+import com.java.cute.rest.modules.app.dao.DaoSupport;
+import com.java.cute.rest.modules.app.service.ServiceSupport;
 import com.java.cute.rest.modules.user.entity.UserEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
 
 /**
  * APP测试接口
@@ -20,13 +25,39 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/app")
 public class ApiTestController {
 
-    /**
-     * 获取用户信息
-     */
-    @Login
-    @GetMapping("userInfo")
-    public R userInfo(@LoginUser UserEntity user){
-        return R.ok().put("user", user);
+//    /**
+//     * 获取用户信息
+//     */
+//    @Login
+//    @GetMapping("userInfo")
+//    public R userInfo(@LoginUser UserEntity user){
+//        return R.ok().put("user", user);
+//    }
+    @Autowired
+    private DaoSupport daoSupport;
+
+
+    @PostMapping("member/userInfo")
+    public AppBaseResult userInfo(@RequestBody AppBaseResult appBaseResult){
+
+        HashMap<String,Object> pd = new Gson().fromJson(appBaseResult.decryptData().toString(),HashMap.class);
+        String username = pd.get("username").toString();
+
+        HashMap<String,Object> user = null;
+        try {
+            user = daoSupport.findForObject("app.AppUserDao.queryObject", username);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        Assert.isNull(user, "用户不存在");
+
+        //密码错误
+//        String userpassword = DigestUtils.sha256Hex(password);
+//        if(!user.get("password").equals(userpassword)){
+//            throw new MCException("密码错误");
+//        }
+        return AppBaseResult.success().setEncryptData(user);
+
     }
 
     /**

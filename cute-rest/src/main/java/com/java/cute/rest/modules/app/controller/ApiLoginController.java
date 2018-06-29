@@ -2,7 +2,6 @@ package com.java.cute.rest.modules.app.controller;
 
 
 import com.google.gson.Gson;
-import com.java.cute.rest.common.exception.RRException;
 import com.java.cute.rest.common.utils.AppBaseResult;
 import com.java.cute.rest.common.validator.Assert;
 import com.java.cute.rest.modules.app.service.user.AppUserService;
@@ -12,10 +11,8 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 import javax.annotation.Resource;
 import java.util.HashMap;
 
@@ -26,6 +23,7 @@ import java.util.HashMap;
  * @email object_bnz@163.com
  * @date 2017-03-23 15:31
  */
+
 @RestController
 @RequestMapping("/app")
 public class ApiLoginController {
@@ -44,20 +42,21 @@ public class ApiLoginController {
             @ApiResponse(code = 404, message = "服务器找不到给定的资源；文档不存在"),
             @ApiResponse(code = 500, message = "服务器不能完成请求")}
     )
+    @CrossOrigin
     @PostMapping("login")
     public AppBaseResult login(@RequestBody AppBaseResult appBaseResult) throws Exception {
         logger.info("用户登录",appBaseResult.decryptData());
-        HashMap<String,Object> pd = new Gson().fromJson(appBaseResult.decryptData(),HashMap.class);
-        Assert.isNull(pd.get("mobile"), "手机号不能为空");
-        Assert.isNull(pd.get("password"), "密码不能为空");
-        if (!Assert.checkCellphone(pd.get("mobile").toString())){
-            throw new RRException("请输入正确的手机号");
-        }
+        HashMap<String,Object> pd = new Gson().fromJson(appBaseResult.decryptData().toString(),HashMap.class);
+        Assert.isNull(pd.get("username"), "手机号不能为空");
+        //Assert.isNull(pd.get("password"), "密码不能为空");
+//        if (!Assert.checkCellphone(pd.get("mobile").toString())){
+//            throw new MCException("请输入正确的手机号");
+//        }
 
         //用户登录
         HashMap<String,Object> user = appUserService.queryByMobile(pd);
         //生成token
-        String token = jwtUtils.generateToken(user.get("user_id"));
+        String token = jwtUtils.generateToken(user.get("username"));
         user.put("token", token);
         user.put("expire", jwtUtils.getExpire());
         return AppBaseResult.success().setEncryptData(user);
