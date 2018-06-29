@@ -71,7 +71,6 @@ mybatis-plus:
     multipleResultSetsEnabled: true #开启的话，延时加载一个属性时会加载该对象全部属性，否则按需加载属性
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印sql语句,调试用
 
----
 
 ##########################################################
 ###################  开发环境的profile  ###################
@@ -79,17 +78,15 @@ mybatis-plus:
 spring:
   profiles: dev
   datasource:
-<<<<<<< HEAD
-    url: jdbc:mysql://47.106.111.100/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
-=======
     url: jdbc:mysql://47.106.111.100:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
->>>>>>> 4e2ddd5239b43ea6f316afb582dafea9753c3c6f
+    url: jdbc:mysql://47.106.111.100:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     username: root
     password: mengchong
     db-name: cute
     filters: log4j,wall,mergeStat
 
 #flowable数据源和多数据源配置
+
 cute:
   flowable:
     datasource:
@@ -108,7 +105,6 @@ logging:
   path: logs/
   file: cute.log
 
----
 
 ##########################################################
 ###################  正式环境的profile  ###################
