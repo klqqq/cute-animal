@@ -16,6 +16,7 @@ cute:
 server:
   port: 8080
 
+
 ###################  beetl配置  ###################
 beetl:
   delimiter-statement-start: \@   #开始结束标签(yaml不允许@开头)
