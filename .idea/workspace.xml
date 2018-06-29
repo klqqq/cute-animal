@@ -1,79 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81c3316a-e96e-4b4c-8d35-985bd1713c8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_axet_kaptcha_0_0_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qcloud_cos_api_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_happy_dns_java_0_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_27_incubating.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_webmagic_core_0_7_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_webmagic_extension_0_7_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_xsoup_0_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/util/AliyunVideo/AliyunVideoAction.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/common/constant/factory/ConstantFactory.class" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/common/constant/factory/ConstantFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/intercept/SessionHolderInterceptor.class" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/core/intercept/SessionHolderInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/flowable/service/impl/ExpenseServiceImpl.class" afterPath="$PROJECT_DIR$/cute-admin/target/classes/com/cute/java/modular/flowable/service/impl/ExpenseServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/mutidatasource/aop/MultiSourceExAop.class" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/mutidatasource/aop/MultiSourceExAop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/qr/ImgQrTool.class" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/qr/ImgQrTool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/support/HttpKit.class" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/support/HttpKit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/FileUtil.class" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/FileUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/ToolUtil.class" afterPath="$PROJECT_DIR$/cute-core/target/classes/com/cute/java/core/util/ToolUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/target/classes/com/cute/java/generator/engine/base/CuteTemplateEngine.class" afterPath="$PROJECT_DIR$/cute-generator/target/classes/com/cute/java/generator/engine/base/CuteTemplateEngine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-generator/target/classes/com/cute/java/generator/engine/config/SqlConfig.class" afterPath="$PROJECT_DIR$/cute-generator/target/classes/com/cute/java/generator/engine/config/SqlConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="81c3316a-e96e-4b4c-8d35-985bd1713c8a" name="Default" comment="admin0629">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/daily/cute.log.2018-06-25.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/daily/cute.log.2018-06-26.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/daily/cute.log.2018-06-27.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LOG_PATH_IS_UNDEFINEDLOG_FILE_IS_UNDEFINED" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/pom.xml" afterPath="$PROJECT_DIR$/cute-admin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/core/common/constant/factory/ConstantFactory.java" afterPath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/core/common/constant/factory/ConstantFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/controller/VideoController.java" afterPath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/controller/VideoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/dao/VideoMapper.java" afterPath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/dao/VideoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/dao/mapping/VideoMapper.xml" afterPath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/dao/mapping/VideoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/model/Video.java" afterPath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/model/Video.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/service/IVideoService.java" afterPath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/service/IVideoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/service/impl/VideoServiceImpl.java" afterPath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/service/impl/VideoServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/util/AliyunVideo/AliyunVideo.java" afterPath="$PROJECT_DIR$/cute-admin/src/main/java/com/cute/java/modular/video/util/AliyunVideo/AliyunVideo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cute-admin/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-admin/target/classes/application.yml" afterPath="$PROJECT_DIR$/cute-admin/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cute-rest/cute-rest.iml" afterPath="$PROJECT_DIR$/cute-rest/cute-rest.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/cute.log" afterPath="$PROJECT_DIR$/logs/cute.log" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1613,6 +1546,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cute-animal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cute-animal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cute-animal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cute-animal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -2185,7 +2150,7 @@
       <workItem from="1530154593160" duration="6596000" />
       <workItem from="1530184716516" duration="6592000" />
       <workItem from="1530234566724" duration="2590000" />
-      <workItem from="1530238430189" duration="23202000" />
+      <workItem from="1530238430189" duration="23918000" />
     </task>
     <task id="LOCAL-00001" summary="video和rest">
       <created>1528955305398</created>
@@ -2201,11 +2166,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529040168055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="admin0629">
+      <created>1530277562064</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530277562064</updated>
+    </task>
+    <task id="LOCAL-00004" summary="admin0629">
+      <created>1530278148186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530278148186</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148060000" />
+    <option name="totallyTimeSpent" value="148776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -2217,7 +2196,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3819277" sideWeight="0.5100143" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3819277" sideWeight="0.5100143" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3819277" sideWeight="0.4899857" order="2" side_tool="false" content_ui="tabs" />
@@ -2296,7 +2275,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="video和rest" />
     <MESSAGE value="登录接口app.logincontroller" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录接口app.logincontroller" />
+    <MESSAGE value="admin0629" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin0629" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
