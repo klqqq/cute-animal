@@ -1,31 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.cute.java.modular.system.dao.VideoMapper">
+<mapper namespace="com.cute.java.modular.video.dao.VideoMapper">
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.cute.java.modular.video.model.Video">
         <id column="id" property="id" />
-        <result column="video_name" property="videoName" />
-        <result column="video_type" property="videoType" />
-        <result column="video_desc" property="videoDesc" />
-        <result column="video_url" property="videoUrl" />
-        <result column="m_id" property="mId" />
+        <result column="video_id" property="video_id" />
+        <result column="video_url" property="video_url" />
+        <result column="video_name" property="video_name" />
+        <result column="video_desc" property="video_desc" />
+        <result column="video_type_id" property="video_type_id" />
+        <result column="m_cat_id" property="m_cat_id" />
+        <result column="m_id" property="m_id" />
         <result column="favorite" property="favorite" />
         <result column="share" property="share" />
+        <result column="gift" property="gift" />
         <result column="comment" property="comment" />
+        <result column="upload_time" property="upload_time" />
+        <result column="upload_latlon" property="upload_latlon" />
         <result column="status" property="status" />
+        <result column="video_Width" property="video_Width" />
+        <result column="video_Height" property="video_Height" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, video_name AS videoName, video_type AS videoType, video_desc AS videoDesc, video_url AS videoUrl, m_id AS mId, favorite, share, comment, status
+        video_id,video_url,video_name,video_desc,video_type_id,m_cat_id,m_id,favorite,share,gift,comment,upload_time,upload_latlon,status,video_Width,video_Height
     </sql>
 
-    <select id="getUrl" resultType="String">
+    <select id="getUrl" resultType="com.cute.java.modular.video.model.Video">
         select
-        video_url
+        <include refid="Base_Column_List" />
         from video
-        id=#{vid}
+        where video_id=#{video_id}
     </select>
+
+    <insert id = "InsertMess">
+        INSERT INTO  video(video_id,video_name,video_url,video_Width,video_Height) VALUES (#{video_id},#{video_name},#{video_url},#{video_Width},#{video_Height})
+    </insert>
 
 </mapper>

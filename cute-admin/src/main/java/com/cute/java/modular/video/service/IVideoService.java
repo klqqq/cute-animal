@@ -1,11 +1,8 @@
 package com.cute.java.modular.video.service;
 
-import com.cute.java.modular.video.dao.VideoMapper;
-import com.cute.java.modular.video.model.Video;
 import com.baomidou.mybatisplus.service.IService;
-import org.springframework.beans.factory.annotation.Autowired;
-
-import javax.annotation.Resource;
+import com.cute.java.modular.video.model.Video;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * <p>
@@ -15,8 +12,9 @@ import javax.annotation.Resource;
  * @author liuqiang123
  * @since 2018-06-07
  */
-public interface IVideoService extends IService<Video> {
+//public interface IVideoService extends IService<Video>{
+public interface IVideoService extends IService<com.cute.java.modular.video.model.Video>{
 
+    Video getUrl(@Param("video_id") String video_id);
 
-    Video getUrl(Integer videoId);
-}
+    int InsertMess(@Param("video_id") String video_id, @Param("video_name") String video_name, @Param("video_url") String video_url,@Param("video_Width") Long video_Width,@Param("video_Height") Long video_Height);}
