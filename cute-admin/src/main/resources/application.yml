@@ -79,9 +79,9 @@ mybatis-plus:
 spring:
   profiles: dev
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    url: jdbc:mysql://47.106.111.100:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     username: root
-    password: root
+    password: mengchong
     db-name: cute
     filters: log4j,wall,mergeStat
 
@@ -89,14 +89,14 @@ spring:
 cute:
   flowable:
     datasource:
-      url: jdbc:mysql://127.0.0.1:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      url: jdbc:mysql://47.106.111.100:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
       username: root
-      password: root
+      password: mengchong
   muti-datasource:
     default-dataSource-name: dataSourceCute #默认的数据源名称
-    url: jdbc:mysql://127.0.0.1:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    url: jdbc:mysql://47.106.111.100:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     username: root
-    password: root
+    password: mengchong
 
 logging:
   level.root: info
@@ -112,9 +112,9 @@ logging:
 spring:
   profiles: produce
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      url: jdbc:mysql://47.106.111.100:3306/cute?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
       username: root
-      password: root
+      password: mengchong
       filters: log4j,wall,mergeStat
 
 logging:
